@@ -1,4 +1,4 @@
-FROM docker:19.03.12
+FROM docker:19.03
 
 RUN apk add bash wget maven
 RUN wget https://github.com/buildpacks/pack/releases/download/v0.13.1/pack-v0.13.1-linux.tgz && \
